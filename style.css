@@ -153,7 +153,7 @@
 }
 
 .ex-12-button:hover .ex-12-top-white{
-    animation: left 2s;
+    animation: left 2s linear infinite;
 }
 
 @keyframes left{
@@ -169,7 +169,7 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: right 2s linear;
+    animation: right 2s linear infinite;
 }
 
 @keyframes right {
@@ -185,7 +185,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: spinleft 2s linear;
+    animation: spinleft 2s linear infinite;
 }
 
 @keyframes spinleft{
@@ -216,7 +216,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: spinright 2s linear;
+    animation: spinright 2s linear infinite;
 }
 @keyframes spinright {
     0% {
